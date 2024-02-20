@@ -21,7 +21,7 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://www.iguoxiaodi.com',
+      target: 'https://api.iguoxiaodi.com/api/no-auth/getTimeLongOfNow',
       // [OPTIONAL] `tooltip` is only used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
@@ -39,7 +39,7 @@ const workerConfig = {
       responseKeyword: 'success',
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      checkLocationWorkerRoute: 'https://www.iguoxiaodi.com',
+      checkLocationWorkerRoute: 'https://xxx.example.com',
     },
     // Example TCP Monitor
     {

@@ -21,7 +21,7 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'POST',
       // `target` is a valid URL
-      target: 'https://example.com',
+      target: 'https://www.iguoxiaodi.com',
       // [OPTIONAL] `tooltip` is only used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
@@ -39,7 +39,7 @@ const workerConfig = {
       responseKeyword: 'success',
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
-      checkLocationWorkerRoute: 'https://xxx.example.com',
+      checkLocationWorkerRoute: 'https://www.iguoxiaodi.com',
     },
     // Example TCP Monitor
     {

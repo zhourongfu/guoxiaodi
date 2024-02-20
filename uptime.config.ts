@@ -19,7 +19,7 @@ const workerConfig = {
       // `name` is used at status page and callback message
       name: 'My API Monitor',
       // `method` should be a valid HTTP Method
-      method: 'POST',
+      method: 'GET',
       // `target` is a valid URL
       target: 'https://www.iguoxiaodi.com',
       // [OPTIONAL] `tooltip` is only used at status page to show a tooltip
